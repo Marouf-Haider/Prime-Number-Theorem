@@ -7,15 +7,14 @@ Prime numbers are very important objects across eal world applications, such as 
 This repository presents a comparison of Gauss's and Legendre's formula in approximating the prime counting function $\pi(n)$, given by:
 - $$\pi(n) \sim \frac{n}{log(n)}$$
 - $$\pi(n) \sim \frac{n}{log(n)-1.08366}$$
-- In fact, for any constant $b$:
-- $$\pi(n) \sim \frac{n}{log(n)+ b}$$
+- In fact, for any constant $b$: $$\pi(n) \sim \frac{n}{log(n)+ b}$$
 
 The correctness of these approximations is rigorously proved, but for the seek of visualisation, we display the next figure:
-<p width = "80%" style = center>
-  <img src  ="prime_counting_approximations.png" alt = "prime counting function approximations"/>
+<p  align = "center">
+  <img src  ="prime_counting_approximations.png" alt = "prime counting function approximations" width = "60%"/>
 </p>
 
-**More discussion is conducted on the provided report**
+**More discussion is conducted on the provided report.**
 
 ---
 
